@@ -36,6 +36,6 @@ Accessing information that was calculated by the API is done through the `Face` 
     face.scores
     face.faceRect
 
-Scores will provide the emotional values for the face. `faceRect` will provide the positional information for the current `Face` object. 
+`scores` will provide the emotional values for the face. `faceRect` will provide the positional information for the current `Face` object. 
 
 
