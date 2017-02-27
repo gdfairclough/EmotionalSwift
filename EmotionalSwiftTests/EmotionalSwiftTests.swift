@@ -26,7 +26,7 @@ class EmotionalSwiftTests: XCTestCase {
         
         let expectationDescription = "imageAPICall"
         
-        let key = "767e8a3a7b9d42a38aefed2fc9cb5c53"
+        let key = ""
         let requester = EmotionalDataRequester(apiKey: key)
         let imageName = "photo"
         let expectation = self.expectation(description: expectationDescription)
