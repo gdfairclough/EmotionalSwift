@@ -58,7 +58,7 @@ Each face in the picture provided to the API will get a score for each of the 8 
 `faceRect` will provide the positional information for the current `Face` struct, represented by a `FaceRectange` struct. You will receive 4 pieces of positional information for each face. 
 
 <li> width</li>
-<li> heigth</li>
+<li> height</li>
 <li> top</li>
 <li> left</li>
 
