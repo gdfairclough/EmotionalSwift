@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+///Enum for the potential results of the netowkr request
+public enum Result<T> {
+    case success(T)
+    case failure(Error)
+}

@@ -10,6 +10,21 @@
 		C830A2D81E6361EA00A70AF7 /* EmotionalSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C830A2CE1E6361EA00A70AF7 /* EmotionalSwift.framework */; };
 		C830A2DD1E6361EA00A70AF7 /* EmotionalSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2DC1E6361EA00A70AF7 /* EmotionalSwiftTests.swift */; };
 		C830A2DF1E6361EA00A70AF7 /* EmotionalSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C830A2D11E6361EA00A70AF7 /* EmotionalSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C830A2E91E6363A800A70AF7 /* CognitiveAPIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2E81E6363A800A70AF7 /* CognitiveAPIWrapper.swift */; };
+		C830A2ED1E637AC000A70AF7 /* EmotionalDataRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2EC1E637AC000A70AF7 /* EmotionalDataRequester.swift */; };
+		C830A2F21E63851100A70AF7 /* photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C830A2F11E63851000A70AF7 /* photo.JPG */; };
+		C830A2FA1E63984300A70AF7 /* ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2F91E63984300A70AF7 /* ScoreTests.swift */; };
+		C830A2FE1E639E3900A70AF7 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2FD1E639E3900A70AF7 /* Face.swift */; };
+		C830A3001E639F1E00A70AF7 /* RepresentedEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A2FF1E639F1E00A70AF7 /* RepresentedEmotion.swift */; };
+		C830A3021E639F2700A70AF7 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3011E639F2700A70AF7 /* JSONParser.swift */; };
+		C830A3041E639F3300A70AF7 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3031E639F3300A70AF7 /* Score.swift */; };
+		C830A3061E639F4A00A70AF7 /* FaceRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3051E639F4A00A70AF7 /* FaceRectangle.swift */; };
+		C830A3091E63D80F00A70AF7 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3081E63D80F00A70AF7 /* HTTPMethod.swift */; };
+		C830A30B1E63D82800A70AF7 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A30A1E63D82800A70AF7 /* ContentType.swift */; };
+		C830A30D1E63D84800A70AF7 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A30C1E63D84800A70AF7 /* Connection.swift */; };
+		C830A30F1E63D86500A70AF7 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A30E1E63D86500A70AF7 /* HTTPHeaderField.swift */; };
+		C830A3111E63D88000A70AF7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3101E63D88000A70AF7 /* Result.swift */; };
+		C830A3131E63D89600A70AF7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830A3121E63D89600A70AF7 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,21 @@
 		C830A2D71E6361EA00A70AF7 /* EmotionalSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionalSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C830A2DC1E6361EA00A70AF7 /* EmotionalSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalSwiftTests.swift; sourceTree = "<group>"; };
 		C830A2DE1E6361EA00A70AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C830A2E81E6363A800A70AF7 /* CognitiveAPIWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CognitiveAPIWrapper.swift; path = APIWrapper/CognitiveAPIWrapper.swift; sourceTree = "<group>"; };
+		C830A2EC1E637AC000A70AF7 /* EmotionalDataRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalDataRequester.swift; sourceTree = "<group>"; };
+		C830A2F11E63851000A70AF7 /* photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.JPG; sourceTree = "<group>"; };
+		C830A2F91E63984300A70AF7 /* ScoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTests.swift; sourceTree = "<group>"; };
+		C830A2FD1E639E3900A70AF7 /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		C830A2FF1E639F1E00A70AF7 /* RepresentedEmotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepresentedEmotion.swift; path = Enums/RepresentedEmotion.swift; sourceTree = "<group>"; };
+		C830A3011E639F2700A70AF7 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = JSON/JSONParser.swift; sourceTree = "<group>"; };
+		C830A3031E639F3300A70AF7 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		C830A3051E639F4A00A70AF7 /* FaceRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceRectangle.swift; sourceTree = "<group>"; };
+		C830A3081E63D80F00A70AF7 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C830A30A1E63D82800A70AF7 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = Enums/ContentType.swift; sourceTree = "<group>"; };
+		C830A30C1E63D84800A70AF7 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Enums/Connection.swift; sourceTree = "<group>"; };
+		C830A30E1E63D86500A70AF7 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPHeaderField.swift; path = Enums/HTTPHeaderField.swift; sourceTree = "<group>"; };
+		C830A3101E63D88000A70AF7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Enums/Result.swift; sourceTree = "<group>"; usesTabs = 0; };
+		C830A3121E63D89600A70AF7 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,13 @@
 			children = (
 				C830A2D11E6361EA00A70AF7 /* EmotionalSwift.h */,
 				C830A2D21E6361EA00A70AF7 /* Info.plist */,
+				C830A2E81E6363A800A70AF7 /* CognitiveAPIWrapper.swift */,
+				C830A2EC1E637AC000A70AF7 /* EmotionalDataRequester.swift */,
+				C830A2FD1E639E3900A70AF7 /* Face.swift */,
+				C830A3071E63D77800A70AF7 /* Enum */,
+				C830A3031E639F3300A70AF7 /* Score.swift */,
+				C830A3011E639F2700A70AF7 /* JSONParser.swift */,
+				C830A3051E639F4A00A70AF7 /* FaceRectangle.swift */,
 			);
 			path = EmotionalSwift;
 			sourceTree = "<group>";
@@ -80,10 +117,26 @@
 		C830A2DB1E6361EA00A70AF7 /* EmotionalSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				C830A2DC1E6361EA00A70AF7 /* EmotionalSwiftTests.swift */,
+				C830A2F11E63851000A70AF7 /* photo.JPG */,
 				C830A2DE1E6361EA00A70AF7 /* Info.plist */,
+				C830A2DC1E6361EA00A70AF7 /* EmotionalSwiftTests.swift */,
+				C830A2F91E63984300A70AF7 /* ScoreTests.swift */,
 			);
 			path = EmotionalSwiftTests;
+			sourceTree = "<group>";
+		};
+		C830A3071E63D77800A70AF7 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C830A2FF1E639F1E00A70AF7 /* RepresentedEmotion.swift */,
+				C830A3081E63D80F00A70AF7 /* HTTPMethod.swift */,
+				C830A30A1E63D82800A70AF7 /* ContentType.swift */,
+				C830A30C1E63D84800A70AF7 /* Connection.swift */,
+				C830A30E1E63D86500A70AF7 /* HTTPHeaderField.swift */,
+				C830A3101E63D88000A70AF7 /* Result.swift */,
+				C830A3121E63D89600A70AF7 /* NetworkError.swift */,
+			);
+			name = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +202,7 @@
 					C830A2CD1E6361EA00A70AF7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = T7QFS9UJD5;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C830A2D61E6361EA00A70AF7 = {
@@ -188,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C830A2F21E63851100A70AF7 /* photo.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +253,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C830A2E91E6363A800A70AF7 /* CognitiveAPIWrapper.swift in Sources */,
+				C830A3021E639F2700A70AF7 /* JSONParser.swift in Sources */,
+				C830A30F1E63D86500A70AF7 /* HTTPHeaderField.swift in Sources */,
+				C830A2ED1E637AC000A70AF7 /* EmotionalDataRequester.swift in Sources */,
+				C830A2FE1E639E3900A70AF7 /* Face.swift in Sources */,
+				C830A3091E63D80F00A70AF7 /* HTTPMethod.swift in Sources */,
+				C830A3111E63D88000A70AF7 /* Result.swift in Sources */,
+				C830A3041E639F3300A70AF7 /* Score.swift in Sources */,
+				C830A3001E639F1E00A70AF7 /* RepresentedEmotion.swift in Sources */,
+				C830A30D1E63D84800A70AF7 /* Connection.swift in Sources */,
+				C830A3131E63D89600A70AF7 /* NetworkError.swift in Sources */,
+				C830A3061E639F4A00A70AF7 /* FaceRectangle.swift in Sources */,
+				C830A30B1E63D82800A70AF7 /* ContentType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C830A2FA1E63984300A70AF7 /* ScoreTests.swift in Sources */,
 				C830A2DD1E6361EA00A70AF7 /* EmotionalSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +391,7 @@
 		C830A2E31E6361EA00A70AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T7QFS9UJD5;
@@ -334,6 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.faircoder.EmotionalSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +412,7 @@
 		C830A2E41E6361EA00A70AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T7QFS9UJD5;
@@ -360,6 +432,7 @@
 		C830A2E61E6361EA00A70AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T7QFS9UJD5;
 				INFOPLIST_FILE = EmotionalSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +445,7 @@
 		C830A2E71E6361EA00A70AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T7QFS9UJD5;
 				INFOPLIST_FILE = EmotionalSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

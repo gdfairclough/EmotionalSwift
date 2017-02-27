@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-@testable import EmotionalSwift
+import EmotionalSwift
 
 class ScoreTests : XCTestCase {
     

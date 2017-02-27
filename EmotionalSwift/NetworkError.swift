@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+///possible errors which will cause a network request to fail
+public enum NetworkError : Error {
+    case timeout
+    case requestFailed(reason: String)
+}

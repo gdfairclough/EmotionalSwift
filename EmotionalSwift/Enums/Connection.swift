@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+
+///Connection values for Connection HTTPHeaderField
+enum Connection : String {
+    case keepAlive = "Keep-Alive"
+}

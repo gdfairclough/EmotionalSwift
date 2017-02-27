@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum RepresentedEmotion : String {
+public enum RepresentedEmotion : String {
     case anger
     case contempt
     case disgust

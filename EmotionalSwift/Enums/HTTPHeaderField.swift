@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+///Key values to place in the network request header
+enum HTTPHeaderField : String {
+    case contentType            = "Content-Type"
+    case connection             = "Connection"
+    case subscriptionKey        = "Ocp-Apim-Subscription-Key"
+    case contentLength          = "Content-Length"
+}

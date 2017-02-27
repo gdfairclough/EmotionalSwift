@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import EmotionalSwift
+import Foundation
+import EmotionalSwift
 
 class EmotionalSwiftTests: XCTestCase {
     
@@ -21,15 +22,46 @@ class EmotionalSwiftTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testAPICall(){
+        
+        let expectationDescription = "imageAPICall"
+        
+        let key = "767e8a3a7b9d42a38aefed2fc9cb5c53"
+        let requester = EmotionalDataRequester(apiKey: key)
+        let imageName = "photo"
+        let expectation = self.expectation(description: expectationDescription)
+        
+        let bundle = Bundle(for: type(of: self))
+        
+        guard let imageURL = bundle.url(forResource: imageName, withExtension: ".JPG") else {
+            XCTFail("image \(imageName) could not be converted to imageURL")
+            return
+        }
+        
+        do {
+            let data = try Data(contentsOf: imageURL)
+            
+            requester.requestEmotionalData(for : data) { (result) in
+                switch result{
+                case .success(let faces):
+                    if faces?.count == 2 {
+                        expectation.fulfill()
+                    }else {
+                        XCTFail("Incorrect number of faces returned form API. Expected 2, received \(faces?.count)")
+                    }
+                    
+                case .failure(let error):
+                    XCTFail("call to API failed \(error)")
+                    break
+                }
+            }
+        }catch (let error){
+            print("unable to convert bundle image to data. Error - \(error)")
+        }
+        
+        waitForExpectations(timeout: 60) { (error) in
+            print("error")
+            
         }
     }
     

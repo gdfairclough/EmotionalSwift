@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+///Content-Type values for HTTPHeaderField
+enum ContentType : String {
+    case json = "application/json"
+    case octetStream = "application/octet-stream"
+}

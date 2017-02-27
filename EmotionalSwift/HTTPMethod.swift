@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+///HTTP methods
+enum HTTPmethod : String {
+    case POST   = "POST"
+    case GET    = "GET"
+    case PUT    = "PUT"
+}
