@@ -55,7 +55,7 @@ face.faceRect
 
 Each face in the picture provided to the API will get a score for each of the 8 emotions, and these scores are accessed on the `Face` struct `scores` property. 
 
-`faceRect` will provide the positional information for the current `Face` struct, represented by a `FaceRectange` struct. You will receive 4 pieces of positional information for each face. 
+`faceRect` will provide the positional information for the current `Face` struct, represented by a `FaceRectangle` struct. You will receive 4 pieces of positional information for each face. 
 
 <li> width</li>
 <li> height</li>
