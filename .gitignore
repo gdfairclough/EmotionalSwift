@@ -28,3 +28,5 @@ xcuserdata
 
 # Swift Package Manager
 .build/
+
+EmotionalSwiftTests/EmotionalSwiftTests.swift
