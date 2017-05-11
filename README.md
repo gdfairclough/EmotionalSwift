@@ -64,5 +64,5 @@ Each face in the picture provided to the API will get a score for each of the 8 
 
 You can use these items to determine where each face is located on the picture provided. 
 
-For more infomration on Microsoft Cognitive Services' Emotion API, and for signing up for authentication keys, visit 
+For more information on Microsoft Cognitive Services' Emotion API, and for signing up for authentication keys, visit 
 <a href="https://www.microsoft.com/cognitive-services/en-us/emotion-api">Microsoft's website</a>
