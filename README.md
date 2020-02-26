@@ -1,5 +1,5 @@
 # EmotionalSwift
-Swift Wrapper for Microsoft Congitve Services Emotion API
+Swift Wrapper for Microsoft Cognitive Services Emotion API
 
 # Usage
 This wrapper allows you to easily pull emotional data from the Micorosoft Cogntivie Services Emotion API. 
